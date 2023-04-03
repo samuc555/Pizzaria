@@ -1,0 +1,157 @@
+/* Reset CSS para tirar todas as margens dos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Estilização do HEADER - Cabeçalho */
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header > img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transition: 150ms;
+}
+.menu > li:hover{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transition: 150ms;
+    background-color: rgb(165, 0, 0);
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Estilizando nosso banner */
+.imagem{
+    background-image: url(../img/pizza.jpg);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top center;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px green;
+}
+.imagem > h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-bottom: 30px;
+}
+.imagem > .cardapio{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.imagem > .cardapio:hover{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(124, 124, 124, 0.5);
+}
+.principal{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.melhor{
+    color: green;
+}
+hr{
+    height: 1px;
+    border-color: red;
+}
+.sabores{
+    color: green;
+}
+.div-sabores{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sabor{
+    text-align: center;
+    background-color: green;
+    margin: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px green;
+}
+.valor{
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    border-radius: 5px;
+    background-color: yellow;
+    margin: 5px;
+    color: black;
+}
+.img-sabor{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 280px;
+}
+.p-sabor{
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+.promocoes{
+    display: flex;
+    overflow: scroll;
+    text-align: center;
+}
+.promocoes::-webkit-scrollbar{
+
+}
+h2{
+    color: green;
+}
+/* Estilizando o rodapé */
+footer{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.social > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+
+@media (max-width:600px) {
+
+}
+
